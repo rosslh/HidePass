@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "HidePass",
+  "version": "0.6",
+
+  "description": "Completely hides all typed passwords in password fields- even asterisks- so that the length of your password cannot be determined.",
+  "applications": {
+    "gecko": {
+      "id": "rosshill@protonmail.com",
+      "strict_min_version": "42.0",
+      "strict_max_version": "50.*"
+    }
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["hidepass.js"]
+    }
+  ]
+
+}
