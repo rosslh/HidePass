@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "HidePass",
-  "version": "0.6",
+  "version": "1.0",
 
   "description": "Completely hides all typed passwords in password fields- even asterisks- so that the length of your password cannot be determined.",
   "applications": {
@@ -14,7 +14,7 @@
   },
   "icons": {
     "48": "icons/icon-48.png",
-    "96": "icons/icon-48.png"
+    "96": "icons/icon-96.png"
   },
 
   "content_scripts": [
